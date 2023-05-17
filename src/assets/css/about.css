@@ -1,0 +1,66 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    font-size: 12px;
+  }
+
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  h6{
+    color:rgb(8, 32, 32);
+  }
+
+  .head-title{
+      color:#2609cc;
+      text-decoration: underline;
+      text-transform: uppercase;
+  }
+
+  img{
+      border-radius: 10px;
+      border: #ed1c6f;
+  }
+
+  .about-title{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ea1d6f;
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    animation: backwards;
+      
+  }
+
+  .names{
+      text-decoration: solid;
+      text-transform: uppercase;
+      color: rgb(61, 59, 59);
+  }
+
+.p1{
+    color:rgb(1, 14, 14);
+}
+
+.p2{
+  color:#062e02;
+}
+
+
+.title{
+    color:#2609cc;
+}
+
+.about-body{
+  display: flex;
+  flex-direction: column;
+}
